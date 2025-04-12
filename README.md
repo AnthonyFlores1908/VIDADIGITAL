@@ -47,3 +47,6 @@ Jean Carlo Manzano García	Pie de Página	Copyright y efectos especiales
 HTML5 Semántico
 CSS Flexbox/Grid
 Gradientes comp
+
+##:)
+∂ßß
