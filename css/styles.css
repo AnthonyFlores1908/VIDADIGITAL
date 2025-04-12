@@ -1,0 +1,152 @@
+/* ========== ESTILOS GLOBALES ========== */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ========== CABECERA (Jesús Alejandro) ========== */
+.header {
+    background: linear-gradient(135deg, #2a0845, #6441A5);
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+    color: #00ff88;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 0.5rem 0 0 0;
+}
+
+/* ========== MENÚ (Anthony) ========== */
+.menu {
+    background: #0f0f0f;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border-bottom: 2px solid #6441A5;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background: #6441A5;
+    transform: translateY(-2px);
+}
+
+/* ========== CONTENIDO PRINCIPAL (Leonel) ========== */
+.contenido {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background: #2d2d2d;
+}
+
+.contenido article {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contenido h2 {
+    color: #6441A5;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.contenido img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    border: 3px solid #6441A5;
+}
+
+/* ========== BARRA LATERAL (Juan Luis) ========== */
+.sidebar {
+    background: #0f0f0f;
+    padding: 2rem;
+    width: 300px;
+    border-left: 2px solid #6441A5;
+}
+
+.sidebar h3 {
+    color: #00ff88;
+    border-bottom: 2px solid #6441A5;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 1rem 0;
+    padding: 0.8rem;
+    background: #2d2d2d;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.sidebar li:hover {
+    transform: translateX(10px);
+    background: #6441A5;
+}
+
+/* ========== PIE DE PÁGINA (Jean Carlo) ========== */
+.footer {
+    background: linear-gradient(135deg, #2a0845, #6441A5);
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: auto;
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.5);
+}
+
+.footer p {
+    margin: 0;
+    color: #00ff88;
+    font-weight: bold;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        border-left: none;
+        border-top: 2px solid #6441A5;
+    }
+    
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
